@@ -14,5 +14,11 @@ Click the "Generate Password" button
 
 Your new random password will be displayed on the page and can be copied by clicking the (control + C )
 
+Development
+
+This application was built using Javascript, HTML, and CSS. The code is open source and contributions are welcome.
+
+
+
 
 
