@@ -17,6 +17,7 @@ body {
 .head {
     color: #4ADF86;
     padding-left: 50px;
+    font-size: 50px;
     
 }
 
@@ -28,6 +29,7 @@ body {
 p {
     padding-left: 50px;
     color: #D5D4D8;
+    font-size: 30px;
 
 }
 
@@ -57,6 +59,7 @@ hr {
     width: 350px;
     padding-left: 50px;
     margin-top: 30px;
+    
 }
 
 #generated-password1, #generated-password2 {
@@ -65,7 +68,8 @@ hr {
     margin-right: 10px;
     padding: 10px;
     border-radius: 6px;
-    width: 150px;
+    width: 300px;
+    font-size: 16px;
 
 }
 
