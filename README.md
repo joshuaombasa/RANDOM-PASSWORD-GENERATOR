@@ -18,6 +18,10 @@ Development
 
 This application was built using Javascript, HTML, and CSS. The code is open source and contributions are welcome.
 
+Note
+
+This application is for educational purposes only and should not be used for sensitive information. The developer is not responsible for any security issues resulting from the use of this application
+
 
 
 
