@@ -73,3 +73,12 @@ hr {
 
 }
 
+.length-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#passwordLength {
+    height: 20px;
+}
