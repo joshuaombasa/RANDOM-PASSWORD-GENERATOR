@@ -34,3 +34,13 @@ function generatePassword() {
     passwordEl2.textContent = makePassword(passwordLength)
 
 }
+
+function copyDivToClipboard(id) {
+    var text = document.getElementById(id).innerText;
+    var elem = document.createElement("textarea");
+    document.body.appendChild(elem);
+    elem.value = text;
+    elem.select();
+    document.execCommand("copy");
+    document.body.removeChild(elem);
+   }
