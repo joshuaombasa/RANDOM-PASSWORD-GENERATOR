@@ -73,6 +73,13 @@ hr {
 
 }
 
-.pointer {
-    cursor: pointer;
+.length-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#passwordLength {
+    height: 20px;
+
 }

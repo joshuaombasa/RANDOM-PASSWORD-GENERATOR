@@ -5,10 +5,12 @@ let passwordEl2 = document.getElementById("generated-password2")
 
 
 
-function makePassword() {
+function makePassword(passwordLength) {
 
-        let password = characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()] + characters[randomNumber()];
-
+        let password="";
+        for (let index = 0; index < passwordLength; index++) {
+            password += characters[randomNumber()];
+        }
         return password;
 
 }
@@ -23,9 +25,13 @@ function randomNumber() {
 
 function generatePassword() {
 
-    passwordEl1.textContent = makePassword()
-    passwordEl2.textContent = makePassword()
-    
+    const defaultLength = 15;
+
+    const fieldValue = document.getElementById("passwordLength").value;
+    const passwordLength = fieldValue === "" ? defaultLength : fieldValue;
+
+    passwordEl1.textContent = makePassword(passwordLength)
+    passwordEl2.textContent = makePassword(passwordLength)
 
 }
 

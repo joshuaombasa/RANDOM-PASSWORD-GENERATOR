@@ -11,7 +11,13 @@
     <div class="container">
         <h1 class="head"><span id="white-head">Generate a</span>  random password</h1>
         <p>Never use an insecure passsword again.</p>
-        <button class="btn pointer" onclick="generatePassword()">Generate passswords</button>
+
+        <div class="length-container">
+            <p>Length</p>
+            <input type="number" name="passwordLength" id="passwordLength">
+        </div>
+        <button class="btn" onclick="generatePassword()">Generate passswords</button>
+
         <hr>
         <div class="password-area">
             <p class="pointer" id="generated-password1" onclick="copyDivToClipboard(this.id)"></p>
